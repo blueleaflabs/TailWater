@@ -1,0 +1,20 @@
+# ---- TailWater: what stays on the laptop ----
+# Cited documents (third-party; see sources/SOURCES.md for where to get each)
+sources/*
+!sources/SOURCES.md
+# Independent review artifacts (kept locally as a record, not part of the reproducible package)
+verification/
+# Manuscript, cover letter and explainer: under double-blind review, not posted publicly until published
+paper/submission/
+paper/*.docx
+paper/*.pdf
+# Scratch
+_to_delete/
+__pycache__/
+*.pyc
+.DS_Store
+~$*
+
+# Fonts are not redistributable
+fonts/*
+!fonts/README.md
